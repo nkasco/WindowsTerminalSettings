@@ -1,0 +1,45 @@
+{ //VS Code Settings - Mostly PowerShell -related
+    "vscode_custom_css.policy": true,
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/airfo/synthwave84.css"
+    ],
+    "editor.defaultFormatter": "ms-vscode.powershell",
+    "files.defaultLanguage": "powershell",
+    "powershell.powerShellDefaultVersion": "Windows PowerShell (x64)",
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
+    },
+    "[powershell]": {
+        "editor.defaultFormatter": "ms-vscode.powershell"
+    },
+    "workbench.iconTheme": "vscode-great-icons",
+    "window.zoomLevel": 0,
+    "githubIssues.queries": [
+        {
+            "label": "My Issues",
+            "query": "default"
+        },
+        {
+            "label": "Created Issues",
+            "query": "author:${user} state:open repo:${owner}/${repository} sort:updated-desc"
+        }
+    ],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.tabCompletion": "on",
+    "powershell.integratedConsole.showOnStartup": false,
+    "terminal.external.windowsExec": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.0.1401.0_x64__8wekyb3d8bbwe\\OpenConsole.exe",
+    "debug.console.fontFamily": "Cascadia Code PL",
+    "terminal.integrated.env.windows": {
+    
+    },
+    "terminal.integrated.fontFamily": "Cascadia Code PL",
+    "powershell.codeFormatting.useCorrectCasing": true,
+    "powershell.debugging.createTemporaryIntegratedConsole": true,
+    "powershell.integratedConsole.suppressStartupBanner": true,
+    "powershell.sideBar.CommandExplorerVisibility": false,
+    "powershell.codeFormatting.autoCorrectAliases": true,
+    "powershell.codeFormatting.newLineAfterCloseBrace": false,
+    "powershell.codeFormatting.whitespaceBeforeOpenBrace": false,
+    "powershell.codeFormatting.whitespaceBeforeOpenParen": false,
+    "terminal.integrated.shell.windows": ""
+}
